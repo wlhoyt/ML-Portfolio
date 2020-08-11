@@ -11,7 +11,7 @@
 - [Data Files] https://drive.google.com/drive/folders/1aZc7yqCwtcgRzXOrdHLiSbY4Ur6SEknQ?usp=sharing 
 ## Tasks 
 - [x] Label 1k images from CelebAMask Dataset for inital dataset
-- [ ] Create a script for retrieve the JSON Files
+- [x] Create a script for retrieve the JSON Files
 - [ ] Understand how to train using DeepLabV3+
 - [ ] See Phase One Results (Repeat Data Labeling and training until pecentages are acceptable)
 - [ ] Create Android App from embedding ML and test camera functionality 
