@@ -1,19 +1,30 @@
 # ML_Portfolio
----
-### **DISCLAMER THIS PROJECT IS A TEST OF MY UNDERSTANDING OF ML OVER THE COURSE OF TEACHING MYSELF. IN NO WAY WILL THIS BE OPITIMIZED FROM THE GET GO AND THE OUTCOME OF THIS COULD BE ANYTHING UNDER THE SUN.**
----
-## Git Hub Repositories Used as Reference (Thank you for being openSource)
-1. [Semantic Segmentation Editor] https://github.com/Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor
-2. [DeepLab] https://github.com/tensorflow/models/tree/master/research/deeplab
-3. [CelebAMask] https://github.com/switchablenorms/CelebAMask-HQ
+This repo is to further my understand in machine learning and app development. The goal is to create an app that will use the
+phone camera to tell the user's eye color. This project has multiple phases and is being worked as my proof in my abilities.
 
-## Misc 
-- [Data Files] https://drive.google.com/drive/folders/1aZc7yqCwtcgRzXOrdHLiSbY4Ur6SEknQ?usp=sharing 
-## Tasks 
-- [x] Label 1k images from CelebAMask Dataset for inital dataset
-- [x] Create a script for retrieve the JSON Files
-- [ ] Understand how to train using DeepLabV3+
-- [ ] See Phase One Results (Repeat Data Labeling and training until pecentages are acceptable)
-- [ ] Create Android App from embedding ML and test camera functionality 
-- [ ] Research existing functions for Real Time ML Capturing using phone cameras
-- [ ] Fix any UI/UX issues that may occur during above task
+## Phase one (Machine Learning)
+- [x] Label 1000 images using the CelebAMask Dataset
+- [ ] Create a script for retrieving the JSON Files created using the sematic segmentation application
+- [ ] Add the deeplab folder to the repo
+- [ ] Train a model using the deeplab model structure 
+- [ ] Test the model for overfit or incorrect answer using other images from the CeleAMask Dataset
+- [ ] Using Laptop Camera as a test to see if the model can identify the eye and predict the correct color of them
+
+## Phase two (App Development)
+- [ ] Allow the app to access your camera 
+- [ ] Create an User Interface for the product using fragments
+- [ ] Create a way to show what the ML program see (color indication)
+- [ ] Create a way to show what the sematic segmentation see (location of the eye)
+
+## Phase three (Finish Project)
+- [ ] Add the ML model to the app
+- [ ] Test for bugs and glithes with the app or the embedding of the ML model
+
+## Data Used and Label files 
+- [Data Files] https://drive.google.com/drive/folders/1aZc7yqCwtcgRzXOrdHLiSbY4Ur6SEknQ?usp=sharing
+
+## Git Hub Repositories Used as Reference 
+Thank you to the creators of each repo I used to help me understand and create this project.
+- [Semantic Segmentation Editor] https://github.com/Hitachi-Automotive-And-Industry-Lab/semantic-segmentation-editor
+- [DeepLab] https://github.com/tensorflow/models/tree/master/research/deeplab
+- [CelebAMask] https://github.com/switchablenorms/CelebAMask-HQ
