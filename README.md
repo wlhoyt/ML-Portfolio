@@ -4,7 +4,7 @@ phone camera to tell the user's eye color. This project has multiple phases and 
 
 ## Phase one (Machine Learning)
 - [x] Label 1000 images using the CelebAMask Dataset
-- [ ] Create a script for retrieving the JSON Files created using the sematic segmentation application
+- [x] Create a script for retrieving the JSON Files created using the sematic segmentation application
 - [ ] Add the deeplab folder to the repo
 - [ ] Train a model using the deeplab model structure 
 - [ ] Test the model for overfit or incorrect answer using other images from the CeleAMask Dataset
